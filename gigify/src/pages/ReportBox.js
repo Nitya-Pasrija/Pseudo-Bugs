@@ -8,7 +8,7 @@ const ReportBox = () => {
   return (
     <>
         <Navbar/>
-        <div>
+        <div class='bg-gradient-to-r from-pink-500 hover:to-yellow-500'>
             <div class="bg-orange-100 border-t border-b border-orange text-red px-4 py-3 justify-text-center" role="alert">
                 <p class="font-bold">Caution. Please note!</p>
                 <p class="text-sm">We will send your message across to admins. Removal of a post can take upto a week.</p>

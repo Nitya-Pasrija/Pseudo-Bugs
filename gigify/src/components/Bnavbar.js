@@ -6,15 +6,16 @@ import Notif from './Notif'
 
 const navigation = [
   { name: 'HOME', href: '/' },
-  { name: 'VIEW JOBS', href: '/achivements',},
+  { name: 'ALL GIGS', href: '/achivements',},
   { name: 'REPORT', href: '/reportBox'},
+  { name: 'Edit Jobs', href: '/employees'},
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Bnavbar() {
   return (
     <Disclosure as="nav" className="bg-black">
       {({ open }) => (
@@ -51,7 +52,7 @@ export default function Example() {
                       >
                         {item.name}
                       </NavLink>
-                    ))}
+                    ))} 
                   </div>
                 </div>
               </div>
@@ -89,6 +90,8 @@ export default function Example() {
                           </NavLink>
                         )}
                       </Menu.Item>
+                
+                      
                       <Menu.Item>
                         {({ active }) => (
                           <a

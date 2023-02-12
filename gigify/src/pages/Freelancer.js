@@ -119,16 +119,16 @@ export default function Freelancer() {
           <div class="text-center lg:text-left">
             <button
               type="button"
-              class="inline-block px-7 py-3 bg-pink-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              class="inline-block px-7 py-3 bg-[#FEDD00] text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
             >
-            <NavLink to="/achivements" class=" text-white font-medium text-sm leading-snug uppercase hover:text-white hover:shadow-lg active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+            <NavLink to="/companyList" class="  font-medium text-sm leading-snug uppercase  hover:shadow-lg active:shadow-lg transition duration-150 ease-in-out">
             LOGIN TO MY ACCOUNT
             </NavLink>
             </button>
             <p class="text-sm font-semibold mt-2 pt-1 mb-0">
               NOT A COMPANY? 
               <a
-                href="/newHome"
+                href="/"
                 class="text-red-600 hover:text-red-700 focus:text-red-700 transition duration-200 ease-in-out"
                 >  BACK TO HOME</a
               >

@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Card from '../components/Card'
 import {useState} from 'react'
-const Achivements = () => {
+import Bnavbar from '../components/Bnavbar'
+const CompanyList = () => {
   return (
     <div className= "bg-gradient-to-r from-green-400 to-blue-500">
-        <Navbar/>
+        <Bnavbar/>
         <div className='w-screen bg-gradient-to-r from-green-400 to-blue-500 mb-2'>
             <input placeholder="Search Here" className="border-solid border-2  border-black p-2 w-80 mx-10 my-3"></input>
             <button type="submit"><i class="fa fa-search " ></i></button>
@@ -19,10 +19,9 @@ const Achivements = () => {
             <Card title="Voice Actor" cls="INR 7000" author="Samiksha"/>
         </div>
         <div className="bg-gray-800 h-8 w-screen">
-        
         </div>
     </div>
   )
 }
 
-export default Achivements
+export default CompanyList

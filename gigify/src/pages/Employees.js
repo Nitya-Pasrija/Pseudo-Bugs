@@ -4,7 +4,7 @@ import Employee from '../components/Employee';
 import { useState } from 'react';
 import AddEmployee from '../components/AddEmployee';
 import EditEmployee from '../components/EditEmployee';
-import Navbar from '../components/Navbar';
+import Bnavbar from '../components/Bnavbar';
 import Button from 'react-bootstrap/Button';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
@@ -12,21 +12,15 @@ function Employees() {
     const [employees, setEmployees] = useState([
         {
             id: 1,
-            name: 'Hackathon',
-            role: 'lorem ipsum smthg smthg aaaaaaaa aaaa a aaaaaa aaaaaa',
+            name: 'Technical Writer',
+            role: 'Need a technical writer for ChatGPT routing techniques',
             img: 'https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=600',
         },
         {
             id: 2,
-            name: 'Ideathon',
-            role: 'lorem ipsum smthg smthg aaaaaaaa aaaa a aaaaaa aaaaaa',
+            name: 'VideoGrapher',
+            role: 'VideoGrapher for Github ads',
             img: 'https://images.pexels.com/photos/1181280/pexels-photo-1181280.jpeg?auto=compress&cs=tinysrgb&w=600',
-        },
-        {
-            id: 3,
-            name: 'Scholarship',
-            role: 'lorem ipsum smthg smthg aaaaaaaa aaaa a aaaaaa aaaaaa',
-            img: 'https://images.pexels.com/photos/1181376/pexels-photo-1181376.jpeg?auto=compress&cs=tinysrgb&w=600',
         },
     ]);
 
@@ -53,10 +47,10 @@ function Employees() {
     return (
 
         <div className="">
-            <Navbar/>
+            <Bnavbar/>
             <div className="d-grid gap-2">
                 <Button variant="secondary" className="bg-red" size="lg">
-                    Your Posts
+                    Your Gig Posts
                 </Button>
             </div>
             <ProgressBar striped variant="success" now={100} />
