@@ -11,12 +11,12 @@ const Achivements = () => {
             <button type="submit"><i class="fa fa-search " ></i></button>
         </div>
         <div className="mx-10 flex flex-wrap p-3 bg-[#C6D3C2]">
-            <Card title="1. Hackathon" cls="IT, 2025" author="Andrea" img="https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=600"/>
-            <Card title="2. Ideathon" cls="ECE, 2024" author="Abigail" img="https://images.pexels.com/photos/1181280/pexels-photo-1181280.jpeg?auto=compress&cs=tinysrgb&w=600"/>
-            <Card title="3. Research-Paper" cls="IT, 2021" author="Lanna" img="https://images.pexels.com/photos/1181376/pexels-photo-1181376.jpeg?auto=compress&cs=tinysrgb&w=600"/>
-            <Card title="4. Scholarship" cls="IT, 2025" author="Dipti"/>
-            <Card title="5. Ideathon" cls="CSE-AI, 2026" author="Akanksha"/>
-            <Card title="6. Hackathon" cls="CSE, 2023" author="Samiksha"/>
+            <Card title="Content Writer" cls="INR. 1000" author="Google" img="https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+            <Card title="Videography" cls="INR 2000" author="RasberryPi" img="https://images.pexels.com/photos/1181280/pexels-photo-1181280.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+            <Card title="Data Analytics" cls="INR 1500" author="Lanna Forever21" img="https://images.pexels.com/photos/1181376/pexels-photo-1181376.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+            <Card title="UI Designer" cls="INR 8000" author="Dipti"/>
+            <Card title="Script Writer" cls="INR 5200" author="Akanksha"/>
+            <Card title="Voice Actor" cls="INR 7000" author="Samiksha"/>
         </div>
         <div className="bg-gray-800 h-8 w-screen">
 

@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom'
 import Notif from './Notif'
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'IGDTUW', href: 'https://www.igdtuw.ac.in/',},
-  { name: 'Achivements', href: '/achivements',},
+  { name: 'Home', href: '/newHome' },
+  { name: 'Gigs', href: '/achivements',},
   { name: 'Report', href: '/reportBox'},
+  { name: 'Messages', href: '/newHome'},
 ]
 
 function classNames(...classes) {
