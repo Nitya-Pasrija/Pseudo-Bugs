@@ -14,7 +14,7 @@ export default function Landing() {
             }}>
           <div className="absolute top-0 w-full h-full bg-center bg-cover"
               style={{
-                backgroundImage: "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')"
+                backgroundImage: "url('https://img.freepik.com/premium-photo/beutiful-indian-woman-saree-working-her-laptop_250865-168.jpg?w=2000')"
               }}>
             <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
           </div>
@@ -22,13 +22,12 @@ export default function Landing() {
               <div className="items-center flex flex-wrap">
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                   <div className="pr-12">
-                    <h1 className="text-white font-semibold text-5xl">
-                      Your story starts with us.
-                    </h1>
+                    <h4 className="text-white font-semibold text-3xl">
+                      Gigify - Your story starts with us
+                    </h4>
                     <p className="mt-4 text-lg text-gray-300">
-                      This is a simple example of a Landing Page you can build
-                      using Tailwind Starter Kit. It features multiple CSS
-                      components based on the Tailwindcss design system.
+                   This is India's first women freelancer platform improving the life of unemployed women
+          
                     </p>
                   </div>
                 </div>
@@ -65,9 +64,9 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">Secure and Timely Payments</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
+                      Get instant 30% funds and rest after the work. Choose the work based on rating of the Buisness based on their work culture and payment punctuality
                     </p>
                   </div>
                 </div>
@@ -80,10 +79,10 @@ export default function Landing() {
                       <i className="fas fa-retweet"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Free Revisions
+                      Skill Enhancement Modules
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.
+                      Take skill assessments and improve your profile rating. Unlock Modules to polish further skills
                     </p>
                   </div>
                 </div>
@@ -96,10 +95,10 @@ export default function Landing() {
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Verified Company
+                      Only verified Buisnesses and users
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
+                      Our end to end authentication system verifies users and Buisnesses.
                     </p>
                   </div>
                 </div>
@@ -113,24 +112,20 @@ export default function Landing() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                  Working through us is a pleasure
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Don't let your uses guess by attaching tooltips and popoves
-                  to any element. Just make sure you enable them first via
-                  JavaScript.
+                  Avail free income tax return guidance and understand ur GST libility per
+                
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and
-                  you're good to go. Just make sure you enable them first via
-                  JavaScript.
+                  Buisnesses can check profiles of applicants and schedule video interviews 
                 </p>
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
                   className="font-bold text-gray-800 mt-8"
                 >
-                  Check Tailwind Starter Kit!
+                
                 </a>
               </div>
 
@@ -161,9 +156,7 @@ export default function Landing() {
                       Top Notch Services
                     </h4>
                     <p className="text-md font-light mt-2">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                     Expand your digital presence with our mentorship
                     </p>
                   </blockquote>
                 </div>
@@ -212,9 +205,7 @@ export default function Landing() {
                     A growing company
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    More than 10k women have already become a freelancer where are you?
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -226,7 +217,7 @@ export default function Landing() {
                         </div>
                         <div>
                           <h4 className="text-gray-600">
-                            Carefully crafted components
+                            build your skills
                           </h4>
                         </div>
                       </div>
@@ -239,7 +230,7 @@ export default function Landing() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Amazing page examples</h4>
+                          <h4 className="text-gray-600">laid off ? not an issue</h4>
                         </div>
                       </div>
                     </li>
@@ -251,7 +242,7 @@ export default function Landing() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Dynamic components</h4>
+                          <h4 className="text-gray-600">learn and grow</h4>
                         </div>
                       </div>
                     </li>
@@ -271,9 +262,7 @@ export default function Landing() {
                   Here are our heroes
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-600">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  Meet the Accomplished women
                 </p>
               </div>
             </div>
