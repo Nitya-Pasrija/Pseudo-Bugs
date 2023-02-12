@@ -17,7 +17,7 @@ function AddEmployee(props) {
                 onClick={handleShow}
                 className="block mx-auto m-2 bg-[#193C36] hover:bg-[#193C36] text-white font-bold py-2 px-4 rounded"
             >
-                + Add Another Post
+                + Add Another Gig
             </button>
 
             <Modal
@@ -27,7 +27,7 @@ function AddEmployee(props) {
                 keyboard={false}
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>Add a New Achievement</Modal.Title>
+                    <Modal.Title>Add a New Gig</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <form

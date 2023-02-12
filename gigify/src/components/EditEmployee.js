@@ -19,7 +19,6 @@ function EditEmployee(props) {
             >
                 Update
             </button>
-
             <Modal
                 show={show}
                 onHide={handleClose}
@@ -27,7 +26,7 @@ function EditEmployee(props) {
                 keyboard={false}
             >
                 <Modal.Header closeButton>
-                    <Modal.Title>Update Achievement</Modal.Title>
+                    <Modal.Title>Update Gig Listing</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <form

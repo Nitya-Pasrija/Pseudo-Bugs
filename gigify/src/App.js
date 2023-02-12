@@ -9,17 +9,21 @@ import ReportHome from './pages/NewHome'
 import NewHome from './pages/NewHome';
 import Freelancer from './pages/Freelancer';
 import CompanyList from './pages/CompanyList';
+import Payment from './pages/Payment';
+import Breport from './pages/Breport';
 
 
 function App() {
   return (
     <BrowserRouter>
         <Routes>
+          <Route path='/' element={<NewHome/>}/>
+          <Route path='/bReport' element={<Breport/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/companyList' element={<CompanyList/>}/>
           <Route path='/freelancer' element={<Freelancer/>}/>
           <Route path='/reportHome' element={<ReportHome/>}/>
-          <Route path='/' element={<NewHome/>}/>
+          <Route path='/payment' element={<Payment/>}/>
           <Route path='/reportBox' element={<ReportBox/>}/>
           <Route path='/achivements' element={<Achivements/>}/>
           <Route path='/profile' element={<Profile/>}/>

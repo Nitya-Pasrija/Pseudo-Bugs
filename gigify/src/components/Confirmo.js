@@ -1,17 +1,15 @@
 import React from "react";
-import {BellIcon } from '@heroicons/react/24/outline'
-import { NavLink } from 'react-router-dom'
 
-export default function Notif() {
+export default function Confirmo() {
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
       <button
-        className="rounded-full bg-black p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+        className="bg-gray-800 hover:bg-gray-900 text-white p-4 text-lg my-3 mt-10 w-full md:w-auto"
         type="button"
         onClick={() => setShowModal(true)}
-      >
-        <BellIcon className="h-6 w-6" aria-hidden="true" />
+      > 
+      Pay 
       </button>
       {showModal ? (
         <>
@@ -24,7 +22,7 @@ export default function Notif() {
                 {/*header*/}
                 <div className="flex items-start justify-between p-3 border-b border-solid border-slate-200 rounded-t">
                   <h3 className="text-3xl font-semibold">
-                    Notifications
+                    Payment Status
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -38,18 +36,8 @@ export default function Notif() {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed">
-                    Jenna Stones applied for your Content Writing job! 
-                    
+                    Payment completed successfully. Head home to sign more deals!
                   </p>
-                  <NavLink  to="/profile"
-                            className="p-2 pl-5 pr-5 mr-2 transition-colors duration-700 transform bg-indigo-500 hover:bg-blue-400 text-gray-100 text-lg rounded-lg focus:border-4 border-indigo-300">
-                            View Profile
-                  </NavLink>
-                  <NavLink  to="/payment"
-                            className="bg-pink-600 text-gray-200 p-2 rounded  hover:bg-pink-500 hover:text-gray-100 mr-4">
-                            Hire Her
-                </NavLink>
-                  
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">

@@ -7,7 +7,7 @@ import Notif from './Notif'
 const navigation = [
   { name: 'HOME', href: '/' },
   { name: 'ALL GIGS', href: '/achivements',},
-  { name: 'REPORT', href: '/reportBox'},
+  { name: 'REPORT', href: '/bReport'},
   { name: 'Edit Jobs', href: '/employees'},
 ]
 
@@ -65,7 +65,7 @@ export default function Bnavbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://images.pexels.com/photos/5591214/pexels-photo-5591214.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1209&q=80"
                         alt=""
                       />
                     </Menu.Button>
@@ -80,16 +80,7 @@ export default function Bnavbar() {
                     leaveTo="transform opacity-0 scale-95"
                   >
                     <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <NavLink
-                            to="/profile"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
-                          >
-                            Your Profile
-                          </NavLink>
-                        )}
-                      </Menu.Item>
+                      
                 
                       
                       <Menu.Item>
